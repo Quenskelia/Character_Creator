@@ -1,0 +1,210 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Creator</title>
+    <link rel="stylesheet" href=".css">
+</head>
+
+<main>
+
+<h1 class="title">Character Creator</h1>
+
+<body>
+    <section class="instructions">
+        <h2>Instructions</h2>
+        <p>Use the form below to create your character. Fill in the details and select options to customize your character's attributes, background, and equipment.</p>
+   
+    </section>
+    <section class="character-details">
+        <h2>Character Details</h2>
+        <div class="Character Name">Character Name
+        <input type="text" id="nameInput" placeholder="Enter character name">
+    </div>
+    <div class="Character Race">Character Race
+        <select id="raceSelect">
+            <option value="Human">Human</option>
+            <option value="Elf">Elf</option>
+            <option value="Dwarf">Dwarf</option>
+            <option value="Orc">Orc</option>
+            <option value="Halfling">Halfling</option>
+            <option value="Gnome">Gnome</option>
+            <option value="Tiefling">Tiefling</option>
+            <option value="Dragonborn">Dragonborn</option>
+            <option value="Half-Elf">Half-Elf</option>
+        </select>
+
+    </div>
+
+    <div class="Character Class">Character Class
+        <select id="classSelect">
+            <option value="Fighter">Fighter</option>
+            <option value="Sorcerer">Sorcerer</option>
+            <option value="Rogue">Rogue</option>
+            <option value="Cleric">Cleric</option>
+            <option value="Barbarian">Barbarian</option>
+            <option value="Bard">Bard</option>
+            <option value="Druid">Druid</option>
+            <option value="Monk">Monk</option>
+            <option value="Paladin">Paladin</option>
+            <option value="Ranger">Ranger</option>
+            <option value="Warlock">Warlock</option>
+            <option value="Wizard">Wizard</option>
+        </select>
+    </div>
+
+    <div class="Character Gender">Character Gender
+        <select id="genderSelect">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+
+    <div class="Character Age">Character Age
+        <input type="number" id="ageInput" placeholder="Enter character age">
+    </div>
+
+    <div class="Character Appearance">Character Appearance
+        <input type="text" id="appearanceInput" placeholder="Enter character appearance">
+    </div>
+
+    <div class="Character Alignment">Character Alignment
+        <select id="alignmentSelect">
+            <option value="Lawful Good">Lawful Good</option>
+            <option value="Neutral Good">Neutral Good</option>
+            <option value="Chaotic Good">Chaotic Good</option>
+            <option value="Lawful Neutral">Lawful Neutral</option>
+            <option value="True Neutral">True Neutral</option>
+            <option value="Chaotic Neutral">Chaotic Neutral</option>
+            <option value="Lawful Evil">Lawful Evil</option>
+            <option value="Neutral Evil">Neutral Evil</option>
+            <option value="Chaotic Evil">Chaotic Evil</option>
+        </select>
+
+
+    <div class="Character Background">Character Background
+        <select id="backgroundSelect">
+            <option value="Noble">Noble</option>
+            <option value="Soldier">Soldier</option>
+            <option value="Criminal">Criminal</option>
+            <option value="Sage">Sage</option>
+            <option value="Outlander">Outlander</option>
+            <option value="Acolyte">Acolyte</option>
+            <option value="Folk Hero">Folk Hero</option>
+            <option value="Guild Artisan">Guild Artisan</option>
+        </select>
+    </div>
+
+    <div class="Character Personality">Character Personality
+        <input type="text" id="personalityInput" placeholder="Enter character personality">
+    </div>
+
+    <div class="Character Traits">Character Traits
+        <input type="text" id="traitsInput" placeholder="Enter character traits">
+    </div>
+
+    <div class="Character Flaws">Character Flaws
+        <input type="text" id="flawsInput" placeholder="Enter character flaws">
+    </div>
+
+    <div class="Character Ideals">Character Ideals
+        <input type="text" id="idealsInput" placeholder="Enter character ideals">
+    </div>
+
+    <div class="Character Bonds">Character Bonds
+        <input type="text" id="bondsInput" placeholder="Enter character bonds">
+    </div>
+
+    <div class="Character Backstory">Character Backstory
+        <input type="text" id="backstoryInput" placeholder="Enter character backstory">
+    </div>
+    <div class ="Character Attributes">Character Attributes
+        <label for="strengthInput">Strength:</label>
+        <input type="number" id="strengthInput" placeholder="Enter strength value">
+        <label for="dexterityInput">Dexterity:</label>
+        <input type="number" id="dexterityInput" placeholder="Enter dexterity value">
+        <label for="constitutionInput">Constitution:</label>
+        <input type="number" id="constitutionInput" placeholder="Enter constitution value">
+        <label for="intelligenceInput">Intelligence:</label>
+        <input type="number" id="intelligenceInput" placeholder="Enter intelligence value">
+        <label for="wisdomInput">Wisdom:</label>
+        <input type="number" id="wisdomInput" placeholder="Enter wisdom value">
+        <label for="charismaInput">Charisma:</label>
+        <input type="number" id="charismaInput" placeholder="Enter charisma value">
+
+    
+
+
+    </div>
+    </section>
+    <section class="equipment">
+        <h2>Equipment</h2>
+    <div class="Primary Weapon">Primary Weapon
+        <select id="weaponSelect">
+            <option value="Sword">Sword</option>
+            <option value="Bow">Bow</option>
+            <option value="Staff">Staff</option>
+            <option value="Dagger">Dagger</option>
+            <option value="Axe">Axe</option>
+            <option value="Mace">Mace</option>
+            <option value="Spear">Spear</option>
+            <option value="Quarterstaff">Quarterstaff</option>
+        </select>
+
+    </div>
+
+    <div class="Secondary Item">Secondary Item
+        <select id="secondarySelect">
+            <option value="Potion">Potion</option>
+            <option value="Grimoire">Grimoire</option>
+            <option value="Torch">Torch</option>
+            <option value="Rope">Rope</option>
+            <option value="Thieves' Tools">Thieves' Tools</option>
+            <option value="Holy Symbol">Holy Symbol</option>
+            <option value="Lute">Lute</option>
+            <option value="Alchemist's Supplies">Alchemist's Supplies</option>
+
+        </select>
+    </div>
+    <div class="Armor">Armor
+        <select id="armorSelect">
+            <option value="Padded Armor">Padded Armor</option>
+            <option value="Leather Armor">Leather Armor</option>
+            <option value="Studded Leather Armor">Studded Leather Armor</option>
+            <option value="Hide Armor">Hide Armor</option>
+            <option value="Scale Mail">Scale Mail</option>
+            <option value="Chain Mail">Chain Mail</option>
+            <option value="Plate Armor">Plate Armor</option>
+        </select>
+    </div>
+    <div class ="Money">Money
+        <input type="number" id="moneyInput" placeholder="Enter amount of gold">
+    </section>
+
+<div class="submit-section">
+    <button id="submitButton">Create Character</button>
+</div>
+<section class="character-summary">
+<div id="characterSummary">
+    <h2>Character Summary</h2>
+    <p id="summaryText"></p>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src=".js"></script>  
+</body>
+</main>
+</html>
