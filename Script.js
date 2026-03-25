@@ -66,5 +66,3 @@ button.addEventListener('click', function() {
 
 
 
-//const characterRace = document.getElementById(raceSelect).value;
-//console.log(characterRace);
