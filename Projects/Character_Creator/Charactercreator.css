@@ -1,0 +1,111 @@
+main {
+    padding: 20px;
+    background-color: rgb(138, 138, 138);
+    min-height: 100vh;
+    font-size: 1em;
+}
+
+#title{
+    text-align: center;
+    font-size: 10em;
+    margin-top: 20px;
+    font-family:fantasy;
+    color: #ffde84;
+}
+
+.instructions {
+    background-color: #ea00ff3b;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 2.5rem;
+    display: block;
+    border : 2px solid #000000;
+    border-radius: 10rem;
+}
+
+.character-details {
+    background-color: #00a2ff3a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : #000000;
+    text-align : center;
+    font-size : 1.8rem;
+    line-height : 1.5;
+    Display : flex;
+    flex-direction : column;
+    border : 2px solid #000000;
+    border-radius : 10rem;
+    
+}
+
+.equipment {
+    background-color: #00ff003a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : #000000;
+    text-align : center;
+    font-size : 1.8em;
+    line-height : 1.5;
+    Display : flex;
+    flex-direction : column;
+    border : 2px solid #000000;
+    border-radius : 10em;
+    
+}
+.submit-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px; ;
+    button {
+        padding: 10px 20px;
+        font-size: 1.5em;
+        background-color: #ffde84;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+}
+
+.character-summary {
+    background-color: #ffde843a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : #000000;
+    text-align : center;
+    font-size : 1.8em;
+    line-height : 1.5;
+    Display : flex;
+    flex-direction : column;
+    border : 2px solid #000000;
+    border-radius : 10em;
+    
+}
+
+.characterOutput {
+    background-color: #ffbb003a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color : #000000;
+    text-align : center;
+    font-size : 1.8rem;
+    line-height : 1.5;
+    Display : flex;
+    flex-direction  : column;
+    border : 2px solid #000000;
+    border-radius : 10rem;
+    
+}

@@ -14,15 +14,21 @@
 <body>
     <section class="instructions">
         <h2>Instructions</h2>
-        <p>Use the form below to create your character. Fill in the details and select options to customize your character's attributes, background, and equipment.</p>
+        <p>Use the form below to create your character. Fill in the details and select options to customize your character's attributes, appearance, background, and equipment.</p>
    
     </section>
+
     <section class="character-details">
+
         <h2>Character Details</h2>
-        <div class="Character Name">Character Name
+
+        <div class="Character-Name">Character Name
         <input type="text" id="nameInput" placeholder="Enter character name">
+
     </div>
+
     <div class="Character Race">Character Race
+
         <select id="raceSelect">
             <option value="Human">Human</option>
             <option value="Elf">Elf</option>
@@ -33,12 +39,15 @@
             <option value="Tiefling">Tiefling</option>
             <option value="Dragonborn">Dragonborn</option>
             <option value="Half-Elf">Half-Elf</option>
+
         </select>
 
     </div>
 
     <div class="Character Class">Character Class
+
         <select id="classSelect">
+
             <option value="Fighter">Fighter</option>
             <option value="Sorcerer">Sorcerer</option>
             <option value="Rogue">Rogue</option>
@@ -51,14 +60,20 @@
             <option value="Ranger">Ranger</option>
             <option value="Warlock">Warlock</option>
             <option value="Wizard">Wizard</option>
+
         </select>
+
     </div>
 
     <div class="Character Gender">Character Gender
+
         <select id="genderSelect">
+
             <option value="Male">Male</option>
             <option value="Female">Female</option>
+
         </select>
+
     </div>
 
     <div class="Character Age">Character Age
@@ -176,6 +191,7 @@
             <option value="Scale Mail">Scale Mail</option>
             <option value="Chain Mail">Chain Mail</option>
             <option value="Plate Armor">Plate Armor</option>
+            
         </select>
     </div>
     <div class ="Money">Money
@@ -190,6 +206,10 @@
     <h2>Character Summary</h2>
     <p id="summaryText"></p>
 </div>
+<div id="characterOutput"></div>
+
+
+
 </section>
 
 
@@ -204,7 +224,7 @@
 
 
 
-<script src=".js"></script>  
+<script src="Script.js"></script>  
 </body>
 </main>
 </html>
